@@ -103,7 +103,7 @@ Requires ROS 2 Jazzy with `turtlesim` (`sudo apt install ros-jazzy-turtlesim`).
 
 ```bash
 mkdir -p ~/ros2_ws/src && cd ~/ros2_ws/src
-git clone https://github.com/<your-username>/ros2_robot_status.git
+git clone https://github.com/Deepak27-00/ros2_robot_status.git
 cd ~/ros2_ws
 rosdep install --from-paths src --ignore-src -y
 colcon build --packages-up-to robot_status_py robot_status_cpp
