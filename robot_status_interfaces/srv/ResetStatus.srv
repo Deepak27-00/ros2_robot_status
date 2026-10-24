@@ -1,0 +1,5 @@
+# Reset the simulated sensor (e.g. "the battery was swapped").
+float32 battery_percentage    # level to reset to, must be in (0, 100]
+---
+bool success
+string message

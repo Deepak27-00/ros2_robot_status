@@ -1,0 +1,12 @@
+# Goal: target position in the turtlesim world frame (valid range is about 0..11 on each axis)
+float32 x
+float32 y
+---
+# Result
+bool success
+float32 final_x
+float32 final_y
+string message
+---
+# Feedback
+float32 distance_remaining

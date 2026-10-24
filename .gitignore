@@ -1,0 +1,14 @@
+# colcon output (only relevant if someone uses this repo as the workspace root)
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Editors
+.vscode/
+.idea/
+*.swp
